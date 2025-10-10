@@ -4,11 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .form {
+            margin: auto;
+            max-width: 300px;
+        }
+
+        .head-line {
+            text-align: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 16px;
+            padding-top: 16px;
+        }
+
+        .reg {
+            color: #46A358;
+        }
+
+        .subtitle {
+            color: #3D3D3D;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 16px;
+            margin-bottom: 15px;
+            margin-top: 50px;
+        }
+
+        .label-wrap {
+            margin-bottom: 16px;
+        }
+
+
+        .input {
+            width: 273px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            border: 1px solid #EAEAEA;
+            border-radius: 5px;
+            padding: 12px 14px;
+        }
+
+        .btn-submit {
+            width: 300px;
+            height: 45px;
+            background-color: #46A358;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button_provider {
+            border: 1px solid #EAEAEA;
+            border-radius: 5px;
+            padding: 15px;
+            width: 100%;
+            height: 40px;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+            color: #727272;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            margin-bottom: 10px;
+        }
+
+        .text2 {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
+    <section>
+        <form class="form">
+            <p class="head-line"><a href="#">Login</a> | <span class="reg">Register</span></p>
+            <p class="subtitle">Enter your email and password to register.</p>
+            <p>
+                <label class="label-wrap">
+                    <input class="input" type="text" name="fullname" placeholder="Username">
+                </label>
+            </p>
+            <p>
+                <label class="label-wrap">
+                    <input class="input" type="email" name="email" placeholder="Enter your email address">
+                </label>
+            </p>
+            <p>
+                <label class="label-wrap">
+                    <input class="input" type="password" name="password" placeholder="Password">
+                </label>
+            </p>
+            <p>
+                <label class="label-wrap">
+                    <input class="input" type="password" name="confirm_password" placeholder="Confirm Password">
+                </label>
+            </p>
+            <button type="submit" class="btn-submit"><strong>Register</strong></button>
+            <p class="text2">Or register with</p>
+            <button class="button_provider">
+                <img src="img/google.png" alt="Google" width="20" height="20">
+                <span>Continue with Google</span>
+            </button>
+            <button class="button_provider">
+                <img src="img/facebook.png" alt="Facebook" width="20" height="20">
+                <span>Continue with Facebook</span>
+            </button>
+
+        </form>
+
+    </section>
 
 </body>
 
