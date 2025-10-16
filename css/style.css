@@ -1,0 +1,12 @@
+.side_section {
+    margin-top: 171px;
+    margin-left: 135px;
+    background-color: #e45e5e;
+    width: 310px;
+    height: 774px;
+}
+
+.side_section>li {
+    margin-left: 12px;
+    list-style: none;
+}
