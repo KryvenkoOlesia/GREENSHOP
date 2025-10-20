@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Cera Pro-Bold;
+    src: url(/fonts/CeraPro-Bold.woff);
+}
+
+@font-face {
+    font-family: Cera Pro-Light;
+    src: url(/fonts/CeraPro-Light.woff);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -8,24 +18,39 @@
     border-bottom: 1px solid #EAEAEA;
     padding-top: 30px;
     font-size: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    font-family: Cera Pro-Light;
+    color: #3D3D3D;
+}
+
+.logo,
+.nav,
+.btn {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .logo {
     color: #46A358;
-    display: flex;
-    align-items: center;
     font-weight: 700;
     font-size: 18px;
     padding-bottom: 18px;
+    font-family: Cera Pro-Bold;
+    width: 25%;
+    margin-top: 25px;
+}
+
+.logo img {
+    vertical-align: middle;
+
 }
 
 .nav {
-    display: flex;
-    gap: 50px;
-    padding-bottom: 18px;
+    text-align: center;
+    width: 50%;
+}
+
+.nav_link+.nav_link {
+    margin-left: 50px;
 }
 
 a {
@@ -34,6 +59,16 @@ a {
 }
 
 .btn {
+    width: 24%;
+    text-align: right;
+}
+
+.log_btn img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.log_btn {
     background-color: #46A358;
     color: #FFFF;
     border: none;
@@ -41,8 +76,65 @@ a {
     cursor: pointer;
     width: 100px;
     height: 35px;
-    padding-bottom: 18px;
+    font-size: 18px;
+}
 
-    justify-content: center;
-    gap: 5px;
+.content {
+    max-width: 1200px;
+    background-color: #F5F5F580;
+    color: #3D3D3D;
+    font-family: Cera Pro-Light;
+}
+
+.main-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.plants {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    text-align: right;
+}
+
+
+.welcome {
+    padding-left: 43px;
+    padding-top: 68px;
+    font-family: Cera Pro-Bold;
+
+}
+
+.lets {
+    padding-left: 40px;
+    font-size: 70px;
+    font-family: Cera Pro-Bold;
+    line-height: 0.5;
+
+}
+
+.planet {
+    color: #46A358;
+}
+
+
+.text {
+    padding-left: 43px;
+    line-height: 2;
+    font-family: Cera Pro-Light;
+}
+
+.button-shop {
+    background-color: #46A358;
+    color: #FFFF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 41px;
+
 }
