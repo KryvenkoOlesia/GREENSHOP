@@ -1,12 +1,126 @@
+@font-face {
+    font-family: "Cera Pro-Light";
+    src: url(/fonts/CeraPro-Light.woff);
+}
+
+@font-face {
+    font-family: "Cera Pro-Medium";
+    src: url(/fonts/CeraPro-Medium.woff);
+}
+
+@font-face {
+    font-family: "Cera Pro-Bold";
+    src: url(/fonts/CeraPro-Bold.woff);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .side_section {
     margin-top: 171px;
     margin-left: 135px;
-    background-color: #e45e5e;
-    width: 310px;
-    height: 774px;
+    width: 240px;
+    height: auto;
+    float: left;
+    padding-left: 18px;
+    font-family: "Cera Pro-Bold", sans-serif;
+    background-color: #FBFBFB;
+    color: #3D3D3D;
 }
 
-.side_section>li {
-    margin-left: 12px;
+.side_section li:hover {
+    color: #46A358;
+}
+
+.side_section li {
+    padding-left: 12px;
     list-style: none;
+    font-family: "Cera Pro-Medium", sans-serif;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+.banner {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 171px;
+    margin-left: 50px;
+    color: #3D3D3D;
+    font-family: "Cera Pro-Medium", sans-serif;
+}
+
+.sort {
+    float: right;
+    cursor: pointer;
+    margin-left: 240px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav a,
+.nav p,
+.nav img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 37px;
+}
+
+.plants div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.plants img {
+    background-color: #FBFBFB;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.plants p {
+    font-family: "Cera Pro-Light", sans-serif;
+}
+
+.plants span {
+    color: #46A358;
+    font-family: "Cera Pro-Medium",
+        sans-serif;
+}
+
+.pages {
+    text-align: right;
+}
+
+.pages a {
+    display: inline-block;
+    border-radius: 4px;
+    line-height: 30px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #E5E5E5;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+    font-family: "Cera Pro-Light", sans-serif;
+}
+
+.pages a:hover {
+    background-color: #46A358;
+    color: #E5E5E5;
 }
