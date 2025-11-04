@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Cera Pro-Light";
-    src: url(/fonts/CeraPro-Light.woff);
+    src: url("fonts/CeraPro-Light.woff");
 }
 
 @font-face {
     font-family: "Cera Pro-Medium";
-    src: url(/fonts/CeraPro-Medium.woff);
+    src: url("fonts/CeraPro-Medium.woff");
 }
 
 @font-face {
     font-family: "Cera Pro-Bold";
-    src: url(/fonts/CeraPro-Bold.woff);
+    src: url("fonts/CeraPro-Bold.woff");
 }
 
 .container {
