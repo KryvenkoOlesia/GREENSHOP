@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro-Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro-Medium.woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro-Bold.woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro-Black.woff");
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.block {
+    width: 586px;
+    height: 250px;
+    margin-left: 120px;
+    margin-top: 121px;
+    background-color: #FBFBFB;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.block_text {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    text-align: right;
+}
+
+.block span {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #3D3D3D;
+}
+
+.block p {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #727272;
+}
+
+.btn1 {
+    width: 140px;
+    height: 40px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #46A358;
+    color: #FFFFFF;
+    gap: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: "Cera Pro", sans-serif;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.container2 {
+    margin-top: 128px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 700;
+    color: #3D3D3D;
+}
+
+.header p {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    color: #727272;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 120px;
+    background-color: #FBFBFB;
+    width: 268px;
+    gap: 43px;
+}
+
+.post_text {
+    padding-left: 15px;
+}
+
+.post_text span {
+    color: #46A358;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.post_text h3 {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3D3D3D;
+}
+
+.post_text p {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+}
+
+.link {
+    margin-top: 18px;
+    gap: 8px;
+}
+
+.link a {
+    text-decoration: none;
+    margin-top: 18px;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    color: #3D3D3D;
+    gap: 8px;
+}
+
+.link a:hover {
+    color: #46A358;
+}
