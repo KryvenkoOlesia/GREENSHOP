@@ -105,7 +105,7 @@
     margin-left: 120px;
     background-color: #FBFBFB;
     width: 268px;
-    gap: 43px;
+    gap: 44px;
 }
 
 .post_text {
@@ -137,7 +137,6 @@
 
 .link {
     margin-top: 18px;
-    gap: 8px;
 }
 
 .link a {
@@ -146,7 +145,6 @@
     font-family: "Cera Pro", sans-serif;
     font-weight: 500;
     color: #3D3D3D;
-    gap: 8px;
 }
 
 .link a:hover {
